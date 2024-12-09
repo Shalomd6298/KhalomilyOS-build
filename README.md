@@ -4,6 +4,7 @@ KhalomilyOS is a simple operating system written in assembly language. This READ
 
 ## Project Structure
 
+```bash
 KhalomilyOS/
 ├── build-linux.sh
 ├── test-linux.sh
@@ -16,6 +17,7 @@ KhalomilyOS/
 │   ├── kernel.asm
 │   ├── features/
 ├── README.md
+```
 
 ## Create a VM instance
 For this project, Digital Ocean VM is used.
