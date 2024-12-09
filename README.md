@@ -1,5 +1,7 @@
 # KhalomilyOS
 
+![KhalomilyOS Logo](screenshots/logo.png)
+
 KhalomilyOS is a simple operating system written in assembly language. This README provides details on the project structure and steps to build and run the source code.
 
 ## Project Structure
