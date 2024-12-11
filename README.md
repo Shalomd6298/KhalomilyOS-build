@@ -50,14 +50,14 @@ Run unzip <filename.zip>
 
 ### Key Files and Directories
 
-- `build-linux.sh`: Script to build the MikeOS bootloader, kernel, and programs on Linux.
+- `build-linux.sh`: Script to build the KhalomilyOS bootloader, kernel, and programs on Linux.
 - `disk_images/`: Directory to store disk images.
 - `programs/`: Directory containing example programs.
 - `source/`: Directory containing the source code for the bootloader, kernel, and features.
 
-## Building MikeOS
+## Building KhalomilyOS
 
-To build MikeOS, follow these steps:
+To build KhalomilyOS, follow these steps:
 
 1. Ensure you have NASM and other required tools installed.
 2. Run the build script as the root user:
@@ -71,7 +71,7 @@ The build-linux.sh script performs the following steps:
 Checks if the user is root.
 Creates a new floppy image if it doesn't exist.
 Assembles the bootloader using NASM.
-Assembles the MikeOS kernel using NASM.
+Assembles the KhalomilyOS kernel using NASM.
 Adds the bootloader to the floppy image.
 Copies the kernel and programs to the floppy image.
 Unmounts the loopback floppy. [optional]
